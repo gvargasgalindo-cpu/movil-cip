@@ -1,0 +1,56 @@
+{
+  "manifest_version": "5.0",
+  "generated_at_utc": "2026-11-12T08:38:02Z",
+  "config_hash": "0d4106bc",
+  "strategy_approved": true,
+  "execution_mode": "PAPER_ONLY",
+  "approved_universe": [
+    "DOGEUSDT",
+    "ADAUSDT",
+    "FILUSDT",
+    "XRPUSDT",
+    "LTCUSDT",
+    "LINKUSDT",
+    "POLUSDT",
+    "BNBUSDT",
+    "DOTUSDT",
+    "AVAXUSDT"
+  ],
+  "parameters": {
+    "ema_macro_1d": 200,
+    "ema_fast_4h": 21,
+    "ema_slow_4h": 50,
+    "rsi_period": 14,
+    "atr_period": 14,
+    "sl_atr_mult": 1.4,
+    "tp_r_mult": 3.0,
+    "rsi_entry_min": 55.0,
+    "rsi_entry_max": 74.0,
+    "pullback_lookback_bars": 6,
+    "pullback_atr_tolerance": 0.6,
+    "breakout_lookback_bars": 16,
+    "volume_mult_min": 1.25,
+    "min_atr_pct": 0.011,
+    "max_atr_pct": 0.045,
+    "time_stop_bars_4h": 48
+  },
+  "validation_summary": {
+    "total_trades": 166,
+    "in_sample_trades": 133,
+    "out_of_sample_trades": 33,
+    "win_rate_pct": 30.72,
+    "profit_factor_total": 1.07,
+    "profit_factor_in_sample": 1.04,
+    "profit_factor_out_of_sample": 1.24,
+    "max_drawdown_pct": 18.42,
+    "net_return_pct": 7.05,
+    "expectancy_r": 0.071,
+    "avg_friction_drag_r": 0.122,
+    "rejected_by_slots_count": 105,
+    "per_symbol_stats": {}
+  },
+  "rejection_reasons": [
+    "Profit Factor In-Sample insuficiente: 1.04 < 1.30",
+    "Max Drawdown excedido: 18.42% > 18.00%"
+  ]
+}
